@@ -1,0 +1,5 @@
+local args = {
+    [1] = "h",
+}
+
+game:GetService("ReplicatedStorage").TwitterPost:FireServer(unpack(args))
